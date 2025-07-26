@@ -2,12 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-/* Fixed navbar height ~56px */
-/* Add padding-top to body or first section to avoid content hiding behind navbar */
-body {
-  padding-top: 56px; /* adjust if your navbar height differs */
+  padding-top: 56px; /* Accounts for fixed navbar height (~56px) */
 }
 
 /* General container tweaks */
@@ -16,15 +11,25 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+#home {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  scroll-margin-top: 70px;
+}
+
+
 
 /* Home section styling */
 #home {
   background-color: white;
   position: relative;
   overflow: hidden;
-  min-height: auto; /* Remove min-height 100vh so sections stack tightly */
-  display: block; /* Remove flex & align-items to avoid vertical centering */
-  padding-top: 3rem; /* smaller padding to reduce gaps */
+  min-height: auto; /* Avoid forcing height */
+  display: block;   /* Reset any flex or centering issues */
+  padding-top: 0;   /* ✅ Removed gap below navbar */
   padding-bottom: 3rem;
 }
 

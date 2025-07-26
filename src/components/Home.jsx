@@ -33,8 +33,7 @@ const Home = () => {
         <div className="row align-items-center g-5">
           {/* Text Section */}
           <div className="col-12 col-md-6 order-2 order-md-1">
-            <h1 className="display-5 fw-bold mb-2 text-dark">
-              Hi, I'm <span className="text-primary">Santhosh S</span>
+            <h1 className="display-5 fw-bold mb-2 text-dark">This is Santhosh S
             </h1>
 
             <h5 className="text-secondary mb-3">

@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Education from "./components/Education";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
+import './responsive.css';
 const App = () => {
   return (
     <>

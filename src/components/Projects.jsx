@@ -2,48 +2,46 @@ import React from "react";
 
 const projects = [
   {
-    title: "GraphiXcel",
-    description:
-      "A tool that converts Excel data into visual representations and charts for better data analysis and presentation.",
-    technologies: ["Python", "Excel API", "Data Visualization"],
-    github: "https://github.com/Santhosh-12345/GraphiXcel",
-  },
-  {
     title: "Heart Murmur Detection",
     description:
       "A machine learning model to detect heart murmurs from audio signals, aiding in early diagnosis.",
-    technologies: ["Python", "ML", "Signal Processing"],
-    github: "https://github.com/Santhosh-12345/Heart-Murmur-Detection",
-  },
-  {
-    title: "Supermarket Database",
-    description:
-      "Created a database for a supermarket using MariaDB. Tracks products, customer visits, transactions, and employee details.",
-    technologies: ["MariaDB", "MySQL", "Python"],
-    github: "https://github.com/Santhosh-12345/Supermarket-DB",
+    technologies: ["Python", "ML", "Signal Processing"]
   },
   {
     title: "Online Job Portal System",
     description:
       "Developed a website for job seekers with an attractive user interface. Includes filtering options and PHP backend.",
-    technologies: ["HTML", "CSS", "JavaScript", "PHP"],
-    github: "https://github.com/Santhosh-12345/JobPortal",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP"]
   },
   {
     title: "Airline Management System",
     description:
       "Designed and implemented a system to manage airline operations and bookings with features for flight scheduling and ticket booking.",
-    technologies: ["Java", "MySQL", "JDBC"],
-    github: "https://github.com/Santhosh-12345/AirlineManagement",
+    technologies: ["Java", "MySQL", "JDBC"]
+    // github: "https://github.com/Santhosh-12345/AirlineManagement",
   },
+  {
+    title: "User Authentication System",
+    description:
+      "A secure authentication system with Register, Login, and Dashboard features.",
+    technologies: ["React", "Axios", "Bootstrap", "PHP", "MySQL"]
+    // github: "https://github.com/yourusername/auth-project"
+  },
+  {
+    title: "GraphiXcel",
+    description:
+      "A tool that converts Excel data into visual representations and charts for better data analysis and presentation.",
+    technologies: ["Python", "Excel API", "Data Visualization"]
+  },
+  
+  
 ];
 
 const Projects = () => (
-  <section id="projects" className="py-5 bg-light">
+  <section className="py-5 bg-light">
     <div className="container">
       <div className="text-center mb-5">
-      <h2 className="fw-bold mb-4 text-center">Projects</h2>
-      
+        <h2  id="projects" className="fw-bold mb-4 text-center">Projects</h2>
       </div>
 
       <div className="row g-4">
@@ -64,6 +62,7 @@ const Projects = () => (
                     </span>
                   ))}
                 </div>
+                {/* 
                 <a
                   href={project.github}
                   target="_blank"
@@ -71,7 +70,8 @@ const Projects = () => (
                   className="btn btn-outline-primary mt-auto"
                 >
                   View Code on GitHub
-                </a>
+                </a> 
+                */}
               </div>
             </div>
           </div>

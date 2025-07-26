@@ -1,115 +1,100 @@
 import React from "react";
-import { Mail, MapPin, Phone, Github, LinkedinIcon } from "lucide-react";
+import {
+  Mail,
+  MapPin,
+  Phone,
+  Github,
+  LinkedinIcon,
+  Instagram,
+  Twitter,
+} from "lucide-react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-5 bg-light">
+    <section id="contact" className="pt-3 pb-5 bg-light">
       <div className="container">
-        <div className="text-center mb-5">
-        <h2 className="fw-bold mb-4 text-center">Contact Me</h2>
+        <div className="text-center mb-4">
+          <h2 className="fw-bold mb-3">Contact Me</h2>
         </div>
 
-        <div className="row g-4">
-          {/* Contact Form */}
-          <div className="col-md-6">
-            <div className="card shadow-sm">
-              <div className="card-body">
-                <form>
-                  <div className="mb-3">
-                    <label htmlFor="name" className="form-label">
-                      Name
-                    </label>
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="name"
-                      placeholder="Your name"
-                    />
-                  </div>
+        <div className="row justify-content-center g-4">
+          <div className="col-12 col-md-12">
 
-                  <div className="mb-3">
-                    <label htmlFor="email" className="form-label">
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      className="form-control"
-                      id="email"
-                      placeholder="your@email.com"
-                    />
-                  </div>
-
-                  <div className="mb-4">
-                    <label htmlFor="message" className="form-label">
-                      Message
-                    </label>
-                    <textarea
-                      className="form-control"
-                      id="message"
-                      rows="3"
-                      placeholder="Your message here..."
-                    ></textarea>
-                  </div>
-                  <button type="submit" className="btn btn-primary w-100">
-                    Send Message
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-          {/* Contact Info */}
-          <div className="col-md-6">
+            {/* Contact Info Box */}
             <div className="card shadow-sm mb-4">
-              <div className="card-body">
+              <div className="card-body text-center">
                 <h5 className="card-title text-primary fw-semibold mb-4">
                   Contact Information
                 </h5>
                 <ul className="list-unstyled">
-                  <li className="d-flex mb-3">
-                    <MapPin className="me-3 text-primary" />
-                    <span>Chennai</span>
+                  <li className="mb-3 d-flex justify-content-center align-items-center gap-2">
+                    <MapPin className="text-primary" />
+                    <span className="fw-medium">Chennai</span>
                   </li>
-                  <li className="d-flex mb-3">
-                    <Phone className="me-3 text-primary" />
-                    <span>8939440300</span>
+                  <li className="mb-3 d-flex justify-content-center align-items-center gap-2">
+                    <Phone className="text-primary" />
+                    <span className="fw-medium">8939440300</span>
                   </li>
-                  <li className="d-flex mb-3">
-                    <Mail className="me-3 text-primary" />
-                    <span>santhoshsiva2909@gmail.com</span>
+                  <li className="mb-3 d-flex justify-content-center align-items-center gap-2">
+                    <Mail className="text-primary" />
+                    <span className="fw-medium">santhoshsiva2909@gmail.com</span>
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div className="card shadow-sm">
+            {/* Connect With Me Box */}
+            <div className="card shadow-sm mb-4">
               <div className="card-body">
-                <h5 className="card-title text-primary fw-semibold mb-4">
+                <h5 className="card-title text-primary fw-semibold mb-4 text-center">
                   Connect With Me
                 </h5>
-                <div className="d-flex gap-3">
+
+                <div className="d-flex justify-content-center flex-wrap gap-3">
                   <a
                     href="https://github.com/Santhosh-12345"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-outline-secondary rounded-circle p-2"
+                    className="btn btn-outline-secondary rounded-circle p-3"
                   >
-                    <Github size={20} />
+                    <Github size={24} />
                   </a>
                   <a
-                    href="#"
-                    className="btn btn-outline-secondary rounded-circle p-2"
+                    href="https://www.linkedin.com/in/santhosh-s-417826263"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-outline-secondary rounded-circle p-3"
                   >
-                    <LinkedinIcon size={20} />
+                    <LinkedinIcon size={24} />
                   </a>
                   <a
-                    href="mailto:santhoshsiva2003@gmail.com"
-                    className="btn btn-outline-secondary rounded-circle p-2"
+                    href="mailto:santhoshsiva2909@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-outline-secondary rounded-circle p-3"
                   >
-                    <Mail size={20} />
+                    <Mail size={24} />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/s.a.n.t.h.o.s.h.__07/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-outline-secondary rounded-circle p-3"
+                  >
+                    <Instagram size={24} />
+                  </a>
+                  <a
+                    href="https://x.com/Santhosh_0929"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-outline-secondary rounded-circle p-3"
+                  >
+                    <Twitter size={24} />
                   </a>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>

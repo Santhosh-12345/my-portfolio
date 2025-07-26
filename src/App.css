@@ -1,3 +1,15 @@
+/* Add this for proper scroll offset */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-padding-top: 70px; /* Adjust based on navbar height */
+}
+#home {
+  margin-top: 70px; /* pushes content below fixed navbar */
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -10,9 +22,9 @@ html, body {
 
 section {
   /* This also helps scroll the element correctly into view */
-  scroll-margin-top: 70px; /* Same as navbar height */
-  padding-top: 20px; /* Reduce padding to avoid too much vertical space */
-  padding-bottom: 60px; /* Keep bottom padding as you want */
+  scroll-margin-top: 1px; /* Same as navbar height */
+  padding-top: 1px; /* Reduce padding to avoid too much vertical space */
+  padding-bottom: 1px; /* Keep bottom padding as you want */
 }
 
 .App {

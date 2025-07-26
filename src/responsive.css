@@ -1,0 +1,47 @@
+/* src/responsive.css */
+
+/* Default for mobile (XS) */
+body {
+  font-size: 16px;
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  padding: 20px 10px;
+  text-align: center;
+}
+
+/* SM - Small devices (≥576px) */
+@media (min-width: 576px) {
+  body {
+    font-size: 17px;
+  }
+
+  section {
+    padding: 30px 20px;
+  }
+}
+
+/* MD - Tablets (≥768px) */
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+
+  section {
+    text-align: left;
+    padding: 40px 50px;
+  }
+}
+
+/* LG - Desktop (≥992px) */
+@media (min-width: 992px) {
+  body {
+    font-size: 19px;
+  }
+}

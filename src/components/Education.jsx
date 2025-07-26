@@ -106,8 +106,8 @@ const Education = () => {
           </div>
           {/* Certifications and Volunteer Experience */}
           <div className="col-lg-4">
-            <h3 className="mb-4 text-primary">Certifications</h3>
-            <div className="mb-5">
+            <h3 className="mb-2 text-primary">Certifications</h3>
+            <div className="mb-3">
               {certifications.map((cert, index) => (
                 <div
                   key={index}
@@ -130,7 +130,7 @@ const Education = () => {
               ))}
             </div>
 
-            <h3 className="mb-4 text-primary">Volunteer Experience</h3>
+            <h3 className="mb-2 text-primary">Volunteer Experience</h3>
             <div className="card mb-3 shadow-sm border" style={{ borderColor: "#e9ecef" }}>
               <div className="card-body p-3">
                 <h5 className="card-title mb-1">NSS Volunteer</h5>

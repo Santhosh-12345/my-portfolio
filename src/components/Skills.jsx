@@ -27,8 +27,8 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-5 bg-light">
-      <div className="container">
+    <section  className="py-5 bg-light">
+      <div id="skills" className="container">
         <div className="text-center mb-5">
         <h2 className="fw-bold mb-4 text-center">Skills</h2>
         </div>
