@@ -5,33 +5,36 @@ const projects = [
     title: "Heart Murmur Detection",
     description:
       "A machine learning model to detect heart murmurs from audio signals, aiding in early diagnosis.",
-    technologies: ["Python", "ML", "Signal Processing"]
+    technologies: ["Python", "ML", "Signal Processing"],
+    github: "https://github.com/Santhosh-12345/AI-Driven-Phonocardiogram-Analysis-for-Heart-Murmur-Detection.git",
   },
   {
     title: "Online Job Portal System",
     description:
       "Developed a website for job seekers with an attractive user interface. Includes filtering options and PHP backend.",
-    technologies: ["HTML", "CSS", "JavaScript", "PHP"]
+    technologies: ["React", "Bootstrap", "PHP"],
+    github:"https://github.com/Santhosh-12345/Online-Job-Portal-System.git",
   },
   {
     title: "Airline Management System",
     description:
       "Designed and implemented a system to manage airline operations and bookings with features for flight scheduling and ticket booking.",
-    technologies: ["Java", "MySQL", "JDBC"]
-    // github: "https://github.com/Santhosh-12345/AirlineManagement",
+    technologies: ["Java", "MySQL", "JDBC"],
+    github: "https://github.com/Santhosh-12345/Airline-Management-System.git",
   },
   {
     title: "User Authentication System",
     description:
       "A secure authentication system with Register, Login, and Dashboard features.",
-    technologies: ["React", "Axios", "Bootstrap", "PHP", "MySQL"]
-    // github: "https://github.com/yourusername/auth-project"
+    technologies: ["React", "Axios", "Bootstrap", "PHP", "MySQL"],
+    github: "https://github.com/Santhosh-12345/User-Authentication-System.git",
   },
   {
     title: "GraphiXcel",
     description:
       "A tool that converts Excel data into visual representations and charts for better data analysis and presentation.",
-    technologies: ["Python", "Excel API", "Data Visualization"]
+    technologies: ["Python", "Excel API", "Data Visualization"],
+    github:"https://github.com/Santhosh-12345/GraphiXcel.git",
   },
   
   
@@ -62,7 +65,7 @@ const Projects = () => (
                     </span>
                   ))}
                 </div>
-                {/* 
+                
                 <a
                   href={project.github}
                   target="_blank"
@@ -71,7 +74,7 @@ const Projects = () => (
                 >
                   View Code on GitHub
                 </a> 
-                */}
+               
               </div>
             </div>
           </div>
