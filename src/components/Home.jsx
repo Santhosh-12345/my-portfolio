@@ -69,7 +69,6 @@ const Home = () => {
               style={{ width: "320px", height: "320px", padding: "6px", overflow: "hidden" }}
             >
               <img src={`${process.env.PUBLIC_URL}/photo.jpg`} alt="Santhosh S"
-                alt="Santhosh S"
                 className="img-fluid rounded-circle w-100 h-100 object-fit-cover"
               />
             </div>
